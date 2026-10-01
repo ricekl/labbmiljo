@@ -15,19 +15,19 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 ## Kommandoradsgenomförande (Kursmål 9)
 
-1. Skapa mappen /var/systementor/konsultdata och filen anteckningar.txt via CLI:
+1: Skapa mappen /var/systementor/konsultdata och filen anteckningar.txt via CLI:
 
 ```sudo mkdir -p /var/systementor/konsultdata && sudo touch /var/systementor/konsultdata/anteckningar.txt```
 
-2. Skapa en ny användargrupp (konsulter):
+2: Skapa en ny användargrupp (konsulter):
 
 ```sudo groupadd konsulter```
 
-3.1 Tilldela mappen och filen till gruppen:
+3.1: Tilldela mappen och filen till gruppen:
 
 ```sudo chgrp -R konsulter /var/systementor/konsulter```
 
-3.2 Ställ in behörigheter till mappen och filerna:
+3.2: Ställ in behörigheter till mappen och filen:
 
 ```sudo chmod 750 /var/systementor/konsulter && sudo chmod 640 /var/systementor/konsulter/antäckningar.txt``` 
 

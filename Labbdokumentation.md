@@ -33,9 +33,9 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 4: Inspektera och dokumentera behörigheterna via CLI:
 
-```ls -la /var/systementor```
+Rättigheterna för mappen konsultdata (som man får av ```ls -la /var/systementor```) är: ```drwxr-xr-x root konsulter```
 
-```ls -la /var/systementor/konsulter```
+Rättigheterna för filen antäckningar.txt (som man får av ```ls -la /var/systementor/konsulter```) är: ```-rw-r--r-- root konsulter```
 
 ## Git & Versionshantering (Kursmål 10)
 

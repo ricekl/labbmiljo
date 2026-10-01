@@ -15,4 +15,4 @@ Jag heter Rickard Eklund och studerar i kursen IT-Infrastruktur och Secure Cloud
 
 https://github.com/ricekl/labbmiljo/tree/main
 
-## AI-logg och utvärdering
+## AI-logg & Reflektion (Kursmål 11)

@@ -1,4 +1,4 @@
-# Labbmiljö repo
+# Rickards Labbmiljö repo
 
 Rickards repo för Labbmiljö-uppgiften. Titta på Labbdokumentation.md eller tryck på denna länk:
 

@@ -15,6 +15,8 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 ## Kommandoradsgenomförande (Kursmål 9)
 
+1. ```test```
+
 ## Git & Versionshantering (Kursmål 10)
 
 https://github.com/ricekl/labbmiljo

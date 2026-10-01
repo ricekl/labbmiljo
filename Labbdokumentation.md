@@ -29,7 +29,11 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 3.2: Ställ in behörigheter till mappen och filen:
 
-```sudo chmod 750 /var/systementor/konsulter && sudo chmod 640 /var/systementor/konsulter/antäckningar.txt``` 
+```sudo chmod 750 /var/systementor/konsulter && sudo chmod 640 /var/systementor/konsulter/antäckningar.txt```
+
+4: Inspektera och dokumentera behörigheterna via CLI:
+```ls -la /var/systementor```
+```ls -la /var/systementor/konsulter```
 
 ## Git & Versionshantering (Kursmål 10)
 

@@ -6,16 +6,22 @@ Jag heter Rickard Eklund. Det är den 2 oktober 2026 och jag studerar i kursen I
 
 Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu-vm. De är kopplade till varandra i ett internt nätverk.
 
-## Labbmiljö och Nätverk (Kursmål 8)
+## Labbmiljö & Nätverk (Kursmål 8)
 
 | Hostname      | Operativsystem  | IP-adress    | Subnätmask    | Standard Gateway |
 |---------------|-----------------|--------------|---------------|------------------|
-| ri-windows-vm | Windows 11 Pro  | 192.168.1.50 | 255.255.255.0 | 192.168.1.1      |
-| ri-lubuntu-vm | Lubuntu 26.04.1 | 192.168.1.51 | 255.255.255.0 | 192.168.1.1      |
+| ri-windows-vm | Windows 11 Pro  | 192.168.1.50 | 255.255.255.0 | 192.168.1.51     |
+| ri-lubuntu-vm | Lubuntu 26.04.1 | 192.168.1.51 | 255.255.255.0 | 192.168.1.50     |
 
 ## Kommandoradsgenomförande (Kursmål 9)
 
-1. ```test```
+- Skapa mappen /var/systementor/konsultdata och filen anteckningar.txt via CLI: ```sudo mkdir -p /var/systementor/konsultdata && sudo touch /var/systementor/konsultdata/anteckningar.txt```
+
+- Skapa en ny användargrupp (konsulter): ```sudo groupadd konsulter```
+
+- Tilldela mappen och filen till gruppen, ändra behörigheter: ```sudo chgrp -R konsulter /var/systementor/konsulter && sudo chmod 750 /var/systementor/konsulter && sudo chmod 640 /var/systementor/konsulter/antäckningar.txt```
+
+2. 
 
 ## Git & Versionshantering (Kursmål 10)
 

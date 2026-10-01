@@ -15,6 +15,8 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 ## Kommandoradsgenomförande (Kursmål 9)
 
+### Linux
+
 **1: Skapa mappen /var/systementor/konsultdata och filen anteckningar.txt via CLI:**
 
 ```sudo mkdir -p /var/systementor/konsultdata && sudo touch /var/systementor/konsultdata/anteckningar.txt```
@@ -35,11 +37,15 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 Rättigheterna för mappen konsultdata (som man får av ```ls -la /var/systementor```) är: ```drwxr-x--- root konsulter``` 
 
-Detta betyder i ordning: Det är en mapp (directory), ägaren kan läsa (read), ägaren kan skriva (write), ägaren kan exekvera, gruppen kan läsa,gruppen kan *inte* skriva (-), gruppen kan exekvera, andra användare kan *inte* läsa, skriva eller exekvera
+Detta betyder i ordning: Det är en mapp (directory), ägaren kan läsa (read), ägaren kan skriva (write), ägaren kan exekvera, gruppen kan läsa,gruppen kan *inte* skriva (-), gruppen kan exekvera, andra användare kan *inte* läsa, skriva eller exekvera, root är ägar-användaren, konsulter är ägar-gruppen.
 
 Rättigheterna för filen antäckningar.txt (som man får av ```ls -la /var/systementor/konsulter```) är: ```-rw-r----- root konsulter```
 
-Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte* exekvera, gruppen kan läsa, men *inte* skriva eller exekvera, andra användare kan inte läsa, skriva eller exekvera.
+Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte* exekvera, gruppen kan läsa, men *inte* skriva eller exekvera, andra användare kan inte läsa, skriva eller exekvera, root är ägar-användaren, konsulter är ägargruppen.
+
+### Windows
+
+
 
 ## Git & Versionshantering (Kursmål 10)
 

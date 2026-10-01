@@ -34,9 +34,11 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 **4: Inspektera och dokumentera behörigheterna via CLI:**
 
 Rättigheterna för mappen konsultdata (som man får av ```ls -la /var/systementor```) är: ```drwxr-x--- root konsulter``` 
+
 Detta betyder i ordning: Det är en mapp (directory), ägaren kan läsa (read), ägaren kan skriva (write), ägaren kan exekvera, gruppen kan läsa,gruppen kan *inte* skriva (-), gruppen kan exekvera, andra användare kan *inte* läsa, skriva eller exekvera
 
 Rättigheterna för filen antäckningar.txt (som man får av ```ls -la /var/systementor/konsulter```) är: ```-rw-r----- root konsulter```
+
 Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte* exekvera, gruppen kan läsa, men *inte* skriva eller exekvera, andra användare kan inte läsa, skriva eller exekvera.
 
 ## Git & Versionshantering (Kursmål 10)

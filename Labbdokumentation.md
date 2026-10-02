@@ -49,6 +49,10 @@ Rättigheterna för filen antäckningar.txt (som man får av ```ls -la /var/syst
 
 Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte* exekvera, gruppen kan läsa, men *inte* skriva eller exekvera, andra användare kan *inte* läsa, skriva eller exekvera, root är ägar-användaren, konsulter är ägargruppen.
 
+**5: Verifiera nätverksanslutningen till Windows-VM samt visa nätverkskortets detaljer**
+
+![Ping och nätverk](ping-network.png)
+
 ### Windows
 
 **1: Skapa mappen C:\Systementor\KonsultData via CLI.:**

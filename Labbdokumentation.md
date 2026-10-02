@@ -75,7 +75,7 @@ För mer information kan man använda detta:
 
 ```(Get-Acl C:\Systementor\KonsultData).Access```
 
-
+![Mer Acl information](get-acl-access.png)
 
 ## Git & Versionshantering (Kursmål 10)
 

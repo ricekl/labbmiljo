@@ -21,6 +21,8 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 ```sudo mkdir -p /var/systementor/konsultdata && sudo touch /var/systementor/konsultdata/anteckningar.txt```
 
+Man behöver använda sudo för att mappen /var/ ägs av root. mkdir skapar mappen, -p gör att mappen /var/systementor/ skapas om den inte finns. touch skapar en tom fil.
+
 **2: Skapa en ny användargrupp (konsulter):**
 
 ```sudo groupadd konsulter```
@@ -29,9 +31,13 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 ```sudo chgrp -R konsulter /var/systementor/konsulter```
 
+chgrp ändrar vilken grupp som äger en fil eller mapp. -R gör att alla filer i mappen man pekar på också blir ägda av gruppen
+
 **3.2: Ställ in behörigheter till mappen och filen:**
 
 ```sudo chmod 750 /var/systementor/konsulter && sudo chmod 640 /var/systementor/konsulter/antäckningar.txt```
+
+chmod ändrar behörigheter på mappar och filer
 
 **4: Inspektera och dokumentera behörigheterna via CLI:**
 
@@ -44,6 +50,10 @@ Rättigheterna för filen antäckningar.txt (som man får av ```ls -la /var/syst
 Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte* exekvera, gruppen kan läsa, men *inte* skriva eller exekvera, andra användare kan inte läsa, skriva eller exekvera, root är ägar-användaren, konsulter är ägargruppen.
 
 ### Windows
+
+**1: Skapa mappen C:\Systementor\KonsultData via CLI.:**
+
+```New-Item -ItemType Directory -Path "C:\Systementor\KonsultData"```
 
 
 

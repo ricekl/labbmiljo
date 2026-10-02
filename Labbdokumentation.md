@@ -100,3 +100,5 @@ Jag öppnade linux terminalen och skrev ```man chgrp``` för att få fram en man
 ![chgrp manualsida del förklaring](chgrp1.png)
 
 ![chgrp manualside -R](chgrp2.png)
+
+Jag prövade kommandot då och det blev rätt som man ser [här](#Linux)

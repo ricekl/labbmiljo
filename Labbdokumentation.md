@@ -61,11 +61,17 @@ Väldigt långt kommando men förklarar sig sjävlt bra. Med -Path så läggs ma
 
 ```Get-Acl C:\Systementor\KonsultData```
 
-Här är output av kommandot:
+Ett kommando som ger en kort output av behörigheter. Här är output av kommandot:
 
 | Path        | Owner                  | Access                                      |
 |-------------|------------------------|---------------------------------------------|
 | KonsultData | BUILTIN\Administrators | BUILTIN\Administrators Allow FullControl... |
+
+För mer information kan man använda detta:
+
+```(Get-Acl C:\Systementor\KonsultData).Access```
+
+
 
 ## Git & Versionshantering (Kursmål 10)
 

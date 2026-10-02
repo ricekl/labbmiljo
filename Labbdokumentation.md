@@ -51,6 +51,8 @@ Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte*
 
 **5: Verifiera nätverksanslutningen till Windows-VM samt visa nätverkskortets detaljer**
 
+Här är output av ```ping``` och ```ip addr show```
+
 ![Ping och nätverk](ping-network.png)
 
 ### Windows
@@ -76,6 +78,12 @@ För mer information kan man använda detta:
 ```(Get-Acl C:\Systementor\KonsultData).Access```
 
 ![Mer Acl information](get-acl-access.png)
+
+**3: Verifiera nätverksanslutningen till Linux-VM:en (Test-Connection eller ping) och inspektera nätverksinställningarna (ipconfig /all).
+
+![Windows ping]I(ping-windows-till-lubuntu.png)
+
+![Windows ipconfig](ipconfig-all.png)
 
 ## Git & Versionshantering (Kursmål 10)
 

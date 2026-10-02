@@ -13,6 +13,8 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 | ri-windows-vm | Windows 11 Pro  | 192.168.1.50 | 255.255.255.0 | 192.168.1.51     |
 | ri-lubuntu-vm | Lubuntu 26.04.1 | 192.168.1.51 | 255.255.255.0 | 192.168.1.50     |
 
+Jag satte Standard Gateway till för båda vm till den andra eftersom det är bara de två på nätverket.
+
 ## Kommandoradsgenomförande (Kursmål 9)
 
 ### Linux
@@ -102,3 +104,5 @@ Jag öppnade linux terminalen och skrev ```man chgrp``` för att få fram en man
 ![chgrp manualside -R](chgrp2.png)
 
 Jag prövade kommandot då och det blev rätt som man ser [här](#Linux)
+
+Jag vet att det här är ett tråkigt svar men när jag använde AI under uppgiften så blev det inga fel eller hallunicationer.

@@ -47,7 +47,7 @@ Detta betyder i ordning: Det är en mapp (directory), ägaren kan läsa (read), 
 
 Rättigheterna för filen antäckningar.txt (som man får av ```ls -la /var/systementor/konsulter```) är: ```-rw-r----- root konsulter```
 
-Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte* exekvera, gruppen kan läsa, men *inte* skriva eller exekvera, andra användare kan inte läsa, skriva eller exekvera, root är ägar-användaren, konsulter är ägargruppen.
+Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte* exekvera, gruppen kan läsa, men *inte* skriva eller exekvera, andra användare kan *inte* läsa, skriva eller exekvera, root är ägar-användaren, konsulter är ägargruppen.
 
 ### Windows
 
@@ -55,7 +55,15 @@ Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte*
 
 ```New-Item -ItemType Directory -Path "C:\Systementor\KonsultData"```
 
+Väldigt långt kommando mer förklarar sig sjävlt bra. Med -Path så läggs mappen Systementor till om den inte finns.
 
+**2: Inspektera och dokumentera behörighetsstrukturen/ACL för mappen via PowerShell (Get-Acl):
+
+```Get-Acl C:\Systementor\KonsultData```
+
+| Path        | Owner                  | Access                                      |
+|-------------|------------------------|---------------------------------------------|
+| KonsultData | BUILTIN\Administrators | BUILTIN\Administrators Allow FullControl... |
 
 ## Git & Versionshantering (Kursmål 10)
 

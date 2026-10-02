@@ -90,3 +90,13 @@ För mer information kan man använda detta:
 https://github.com/ricekl/labbmiljo
 
 ## AI-logg & Reflektion (Kursmål 11)
+
+Jag använde ChatGPT för att ta reda på hur man ändrade gruppägaren av en fil eller mapp i linux.
+Jag använde denna promt ```how do i change the group owner of a folder in linux```
+ChatGPT föreslog att jag skulle använda kommandot ```chgrp``` som jag inte har sett förut. Den föreslog även att jag skulle använda kommandot med ```-R``` flaggan som även ändrar ägaren av alla filer i mappen till gruppen man skrev.
+
+Jag öppnade linux terminalen och skrev ```man chgrp``` för att få fram en manual för kommandot för mer information. Där stod det tydligt att ChatGPT hade rätt:
+
+![chgrp manualsida del förklaring](chgrp1.png)
+
+![chgrp manualside -R](chgrp2.png)

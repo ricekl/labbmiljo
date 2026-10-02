@@ -79,9 +79,9 @@ För mer information kan man använda detta:
 
 ![Mer Acl information](get-acl-access.png)
 
-**3: Verifiera nätverksanslutningen till Linux-VM:en (Test-Connection eller ping) och inspektera nätverksinställningarna (ipconfig /all).
+**3: Verifiera nätverksanslutningen till Linux-VM:en (Test-Connection eller ping) och inspektera nätverksinställningarna (ipconfig /all).**
 
-![Windows ping]I(ping-windows-till-lubuntu.png)
+![Windows ping](ping-windows-till-lubuntu.png)
 
 ![Windows ipconfig](ipconfig-all.png)
 

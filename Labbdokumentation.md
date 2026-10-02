@@ -91,6 +91,8 @@ För mer information kan man använda detta:
 
 https://github.com/ricekl/labbmiljo
 
+![Git log](git-log.png)
+
 ## AI-logg & Reflektion (Kursmål 11)
 
 Jag använde ChatGPT för att ta reda på hur man ändrade gruppägaren av en fil eller mapp i linux.

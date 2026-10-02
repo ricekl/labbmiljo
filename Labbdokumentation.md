@@ -2,7 +2,7 @@
 
 ## Introduktion
 
-Jag heter Rickard Eklund. Det är den 2 oktober 2026 och jag studerar i kursen IT-Infrastruktur och Secure Cloud.
+Jag heter Rickard Eklund. Det är den 2 oktober 2026 och jag går i kursen Introduktion till yrkesrollen och grunderna i IT-infrastruktur.
 
 Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu-vm. De är kopplade till varandra i ett internt nätverk.
 

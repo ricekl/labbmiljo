@@ -21,7 +21,7 @@ Labbmiljön består av två virituella maskiner; en Windows 11-vm och en Lubuntu
 
 ```sudo mkdir -p /var/systementor/konsultdata && sudo touch /var/systementor/konsultdata/anteckningar.txt```
 
-Man behöver använda sudo för att mappen /var/ ägs av root. mkdir skapar mappen, -p gör att mappen /var/systementor/ skapas om den inte finns. touch skapar en tom fil.
+Man behöver använda sudo för att mappen /var/ ägs av root. mkdir skapar mappen, -p gör att mappen /var/systementor/ skapas om den inte finns. && kan man använda för att sätta ihop flera kommandon; när det första kommandot är klart så görs det andra, när det är klart görs det tredje osv. touch skapar en tom fil.
 
 **2: Skapa en ny användargrupp (konsulter):**
 

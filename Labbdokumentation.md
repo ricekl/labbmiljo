@@ -55,11 +55,13 @@ Detta betyder i ordning: Det är inte en mapp, ägaren kan läsa, skriva, *inte*
 
 ```New-Item -ItemType Directory -Path "C:\Systementor\KonsultData"```
 
-Väldigt långt kommando mer förklarar sig sjävlt bra. Med -Path så läggs mappen Systementor till om den inte finns.
+Väldigt långt kommando men förklarar sig sjävlt bra. Med -Path så läggs mappen Systementor till om den inte finns.
 
-**2: Inspektera och dokumentera behörighetsstrukturen/ACL för mappen via PowerShell (Get-Acl):
+**2: Inspektera och dokumentera behörighetsstrukturen/ACL för mappen via PowerShell (Get-Acl):**
 
 ```Get-Acl C:\Systementor\KonsultData```
+
+Här är output av kommandot:
 
 | Path        | Owner                  | Access                                      |
 |-------------|------------------------|---------------------------------------------|
